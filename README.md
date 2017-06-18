@@ -10,7 +10,7 @@ Copy files into GRUB directory:
 sudo cp -r FalloutTheme/ /boot/grub/themes/
 ```
 
-Save changes
+Save changes:
 ```
 sudo update-grub
 ```
