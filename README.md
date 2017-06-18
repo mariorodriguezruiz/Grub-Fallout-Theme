@@ -3,6 +3,7 @@
 
 ![alt text](https://raw.github.com/mariorodriguezruiz/Grub-Fallout-Theme/master/preview.png)
 
+# Instructions
 
 Copy files into GRUB directory:
 ```
