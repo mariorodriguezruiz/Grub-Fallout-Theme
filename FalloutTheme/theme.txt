@@ -1,0 +1,56 @@
+# GRUB2 gfxmenu Linux Fallout theme
+# Designed for any resolution
+
+# Global Property
+title-text: "                                                                                                   Mario Rodríguez"
+title-font: "Unifont Regular 32"
+title-color: "#cccccc"
+desktop-image: "background.png"
+desktop-color: "#000000"
+terminal-font: "Unifont Regular 32"
+terminal-box: "terminal_box_*.png"
+terminal-left: "0"
+terminal-top: "0"
+terminal-width: "100%"
+terminal-height: "100%"
+terminal-border: "0"
+
+# Show the boot menu
++ boot_menu {
+  left = 5%
+  top = 29%
+  width = 70%
+  height = 60%
+  item_font = "Unifont Regular 32"
+  item_color = "#cccccc"
+  selected_item_color = "#40FF00"
+  item_height = 32
+  item_spacing = 12
+  selected_item_pixmap_style = "select_*.png"
+}
+
++ progress_bar {
+  id = "__timeout__"
+  left = 33%
+  width = 33%
+  top = 85%
+  height = 8
+  show_text = false
+  text = ""
+  font = "Unifont Regular 12"
+  fg_color = #40FF00
+  bg_color = #000000
+  border_color = #40FF00
+}
+
++ hbox {
+		top = 100%-70
+		left = 25%
+		+ label {text = "Enter: " font = "Unifont Regular 12" color = "#cccccc" align = "left"}
+		+ label {text = "Boot Selection     " font = "Unifont Regular Regular 12" color = "#40FF00" align = "left"}
+		+ label {text = "E: " font = "Unifont Regular 12" color = "#cccccc" align = "left"}
+		+ label {text = "Edit Selection     " font = "Unifont Regular Regular 12" color = "#40FF00" align = "left"}
+		+ label {text = "C: " font = "Unifont Regular 12" color = "#cccccc" align = "left"}
+		+ label {text = "GRUB Commandline" font = "Unifont Regular Regular 12" color = "#40FF00" align = "left"}
+}
+
