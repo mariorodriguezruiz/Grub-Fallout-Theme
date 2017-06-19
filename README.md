@@ -16,5 +16,6 @@ sudo update-grub
 ```
 
 # Notes
-This Theme is designed for a resolution of 1920x1080. If need be to change it, can it follow the steps here:
+This theme is designed for a resolution of **1920x1080**. If need be to change it, can it follow the steps here:
+
 [How do I safely change grub2 screen resolution](https://askubuntu.com/questions/54067/how-do-i-safely-change-grub2-screen-resolution/)
